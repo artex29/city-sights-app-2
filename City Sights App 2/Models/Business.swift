@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct Business: Decodable {
+struct Business: Decodable, Identifiable {
     
     var id: String?
     var alias: String?
@@ -24,6 +24,7 @@ struct Business: Decodable {
     var phone: String?
     var display_phone: String?
     var distance: Double?
+    
     
 }
 

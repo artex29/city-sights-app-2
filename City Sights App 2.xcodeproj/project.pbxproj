@@ -15,6 +15,10 @@
 		FF94D248279DBC2B0032172D /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94D247279DBC2B0032172D /* Business.swift */; };
 		FF94D24A279DBC600032172D /* BusinessSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94D249279DBC600032172D /* BusinessSearch.swift */; };
 		FF94D24C279DBC7E0032172D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94D24B279DBC7E0032172D /* Constants.swift */; };
+		FF94D251279DC14E0032172D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94D250279DC14E0032172D /* HomeView.swift */; };
+		FF94D254279DCACF0032172D /* BusinessList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94D253279DCACF0032172D /* BusinessList.swift */; };
+		FF94D256279DCFC10032172D /* BusinessSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94D255279DCFC10032172D /* BusinessSectionHeader.swift */; };
+		FF94D258279DD25E0032172D /* BusinessSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94D257279DD25E0032172D /* BusinessSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		FF94D247279DBC2B0032172D /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		FF94D249279DBC600032172D /* BusinessSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSearch.swift; sourceTree = "<group>"; };
 		FF94D24B279DBC7E0032172D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FF94D250279DC14E0032172D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FF94D253279DCACF0032172D /* BusinessList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessList.swift; sourceTree = "<group>"; };
+		FF94D255279DCFC10032172D /* BusinessSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSectionHeader.swift; sourceTree = "<group>"; };
+		FF94D257279DD25E0032172D /* BusinessSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,9 @@
 			isa = PBXGroup;
 			children = (
 				FF94D235279DBA480032172D /* LauchView.swift */,
+				FF94D24D279DC0F30032172D /* Home */,
+				FF94D24E279DC1040032172D /* Onboarding */,
+				FF94D24F279DC1150032172D /* Denied */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -109,6 +120,39 @@
 				FF94D24B279DBC7E0032172D /* Constants.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FF94D24D279DC0F30032172D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FF94D250279DC14E0032172D /* HomeView.swift */,
+				FF94D252279DCAB50032172D /* List */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FF94D24E279DC1040032172D /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		FF94D24F279DC1150032172D /* Denied */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Denied;
+			sourceTree = "<group>";
+		};
+		FF94D252279DCAB50032172D /* List */ = {
+			isa = PBXGroup;
+			children = (
+				FF94D253279DCACF0032172D /* BusinessList.swift */,
+				FF94D255279DCFC10032172D /* BusinessSectionHeader.swift */,
+				FF94D257279DD25E0032172D /* BusinessSection.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,10 +225,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF94D254279DCACF0032172D /* BusinessList.swift in Sources */,
 				FF94D236279DBA480032172D /* LauchView.swift in Sources */,
+				FF94D251279DC14E0032172D /* HomeView.swift in Sources */,
+				FF94D256279DCFC10032172D /* BusinessSectionHeader.swift in Sources */,
 				FF94D248279DBC2B0032172D /* Business.swift in Sources */,
 				FF94D234279DBA480032172D /* City_Sights_App_2App.swift in Sources */,
 				FF94D24A279DBC600032172D /* BusinessSearch.swift in Sources */,
+				FF94D258279DD25E0032172D /* BusinessSection.swift in Sources */,
 				FF94D246279DBBE80032172D /* ContentModel.swift in Sources */,
 				FF94D24C279DBC7E0032172D /* Constants.swift in Sources */,
 			);

@@ -11,6 +11,7 @@ import CoreLocation
 class ContentModel: NSObject, ObservableObject, CLLocationManagerDelegate  {
     
     var locationManager = CLLocationManager()
+    @Published var authorizationState = CLAuthorizationStatus.notDetermined
     @Published var restaurants = [Business]()
     @Published var sights = [Business]()
     
@@ -32,6 +33,9 @@ class ContentModel: NSObject, ObservableObject, CLLocationManagerDelegate  {
     
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
         
+        // Update the authorizationState property
+        authorizationState = locationManager.authorizationStatus
+        
         if locationManager.authorizationStatus == .authorizedAlways || locationManager.authorizationStatus == .authorizedWhenInUse {
             // we have permission
             
@@ -44,6 +48,8 @@ class ContentModel: NSObject, ObservableObject, CLLocationManagerDelegate  {
             // We don't have permission
             
         }
+        
+        
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
