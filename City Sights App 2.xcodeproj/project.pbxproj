@@ -19,6 +19,7 @@
 		FF94D254279DCACF0032172D /* BusinessList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94D253279DCACF0032172D /* BusinessList.swift */; };
 		FF94D256279DCFC10032172D /* BusinessSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94D255279DCFC10032172D /* BusinessSectionHeader.swift */; };
 		FF94D258279DD25E0032172D /* BusinessSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94D257279DD25E0032172D /* BusinessSection.swift */; };
+		FF94D25A279DFCB80032172D /* BusinessRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94D259279DFCB80032172D /* BusinessRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		FF94D253279DCACF0032172D /* BusinessList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessList.swift; sourceTree = "<group>"; };
 		FF94D255279DCFC10032172D /* BusinessSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSectionHeader.swift; sourceTree = "<group>"; };
 		FF94D257279DD25E0032172D /* BusinessSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSection.swift; sourceTree = "<group>"; };
+		FF94D259279DFCB80032172D /* BusinessRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF81D9B3279F41210055F579 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		FF94D227279DBA480032172D = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +160,8 @@
 				FF94D253279DCACF0032172D /* BusinessList.swift */,
 				FF94D255279DCFC10032172D /* BusinessSectionHeader.swift */,
 				FF94D257279DD25E0032172D /* BusinessSection.swift */,
+				FF94D259279DFCB80032172D /* BusinessRow.swift */,
+				FF81D9B3279F41210055F579 /* Detail */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -226,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF94D254279DCACF0032172D /* BusinessList.swift in Sources */,
+				FF94D25A279DFCB80032172D /* BusinessRow.swift in Sources */,
 				FF94D236279DBA480032172D /* LauchView.swift in Sources */,
 				FF94D251279DC14E0032172D /* HomeView.swift in Sources */,
 				FF94D256279DCFC10032172D /* BusinessSectionHeader.swift in Sources */,
