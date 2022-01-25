@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF81D9B5279F42480055F579 /* BusinessDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF81D9B4279F42480055F579 /* BusinessDetail.swift */; };
 		FF94D234279DBA480032172D /* City_Sights_App_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94D233279DBA480032172D /* City_Sights_App_2App.swift */; };
 		FF94D236279DBA480032172D /* LauchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94D235279DBA480032172D /* LauchView.swift */; };
 		FF94D238279DBA4A0032172D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF94D237279DBA4A0032172D /* Assets.xcassets */; };
@@ -20,9 +21,11 @@
 		FF94D256279DCFC10032172D /* BusinessSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94D255279DCFC10032172D /* BusinessSectionHeader.swift */; };
 		FF94D258279DD25E0032172D /* BusinessSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94D257279DD25E0032172D /* BusinessSection.swift */; };
 		FF94D25A279DFCB80032172D /* BusinessRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94D259279DFCB80032172D /* BusinessRow.swift */; };
+		FF9DFFBC27A091FF00CD17DB /* BusinessMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DFFBB27A091FF00CD17DB /* BusinessMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF81D9B4279F42480055F579 /* BusinessDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetail.swift; sourceTree = "<group>"; };
 		FF94D230279DBA480032172D /* City Sights App 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City Sights App 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF94D233279DBA480032172D /* City_Sights_App_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City_Sights_App_2App.swift; sourceTree = "<group>"; };
 		FF94D235279DBA480032172D /* LauchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauchView.swift; sourceTree = "<group>"; };
@@ -37,6 +40,7 @@
 		FF94D255279DCFC10032172D /* BusinessSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSectionHeader.swift; sourceTree = "<group>"; };
 		FF94D257279DD25E0032172D /* BusinessSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSection.swift; sourceTree = "<group>"; };
 		FF94D259279DFCB80032172D /* BusinessRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRow.swift; sourceTree = "<group>"; };
+		FF9DFFBB27A091FF00CD17DB /* BusinessMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 		FF81D9B3279F41210055F579 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				FF81D9B4279F42480055F579 /* BusinessDetail.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				FF94D250279DC14E0032172D /* HomeView.swift */,
+				FF9DFFBA27A091E200CD17DB /* Map */,
 				FF94D252279DCAB50032172D /* List */,
 			);
 			path = Home;
@@ -164,6 +170,14 @@
 				FF81D9B3279F41210055F579 /* Detail */,
 			);
 			path = List;
+			sourceTree = "<group>";
+		};
+		FF9DFFBA27A091E200CD17DB /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				FF9DFFBB27A091FF00CD17DB /* BusinessMap.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,8 +256,10 @@
 				FF94D251279DC14E0032172D /* HomeView.swift in Sources */,
 				FF94D256279DCFC10032172D /* BusinessSectionHeader.swift in Sources */,
 				FF94D248279DBC2B0032172D /* Business.swift in Sources */,
+				FF81D9B5279F42480055F579 /* BusinessDetail.swift in Sources */,
 				FF94D234279DBA480032172D /* City_Sights_App_2App.swift in Sources */,
 				FF94D24A279DBC600032172D /* BusinessSearch.swift in Sources */,
+				FF9DFFBC27A091FF00CD17DB /* BusinessMap.swift in Sources */,
 				FF94D258279DD25E0032172D /* BusinessSection.swift in Sources */,
 				FF94D246279DBBE80032172D /* ContentModel.swift in Sources */,
 				FF94D24C279DBC7E0032172D /* Constants.swift in Sources */,

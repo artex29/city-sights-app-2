@@ -18,25 +18,42 @@ struct HomeView: View {
             // Determine if we show list or map
             // El simbolo "!" al lado de isMapShowing nos pregunta si es false. Es lo mismo que decir if isMapShowing = false {}
             
-            if !isMapShowing  {
-                VStack(alignment: .leading){
-                    HStack{
-                       Image(systemName: "location")
-                        Text("Maracaibo")
-                        Spacer()
-                        Text("Switch to map view")
-                    }
-                    Divider()
-                    BusinessList()
-                }
-                .padding([.horizontal, .top])
+            NavigationView{
                 
-            }
-            else {
-                //Show map
+                if !isMapShowing  {
+                    VStack(alignment: .leading){
+                        HStack{
+                           Image(systemName: "location")
+                            Text("Maracaibo")
+                            Spacer()
+                            
+                            Button("Switch to map") {
+                                self.isMapShowing = true
+                            }
+                        }
+                        
+                        Divider()
+                        
+                        BusinessList()
+                    }
+                    .padding([.horizontal, .top])
+                    .navigationBarHidden(true)
+                    
+                }
+                else {
+                    //Show map
+                    BusinessMap()
+                        .ignoresSafeArea()
+                    
+                    
+                    
+                    
+                }
+                
                 
             }
             
+    
             
             
         }
